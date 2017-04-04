@@ -1,14 +1,18 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{AE6D60CD-40E2-F6A5-E3DD-7CC9473EBD9E}") = "Dungeon Arena Rushers", "Assembly-CSharp.csproj", "{8600A53B-4A2B-C615-E079-9BA18A378E20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{8600A53B-4A2B-C615-E079-9BA18A378E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8600A53B-4A2B-C615-E079-9BA18A378E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8600A53B-4A2B-C615-E079-9BA18A378E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8600A53B-4A2B-C615-E079-9BA18A378E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
