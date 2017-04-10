@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour {
 		if (VirtualJoystick.Instance.GetValue () != Vector3.zero) {
 		
 			MovePlayer ();
+			RotatePlayer ();
 		}
 		
 	}
@@ -27,6 +28,12 @@ public class PlayerMovement : MonoBehaviour {
 	void MovePlayer(){
 	
 		PlayerRB.MovePosition(PlayerRB.position + VirtualJoystick.Instance.GetValue()*speed*Time.deltaTime);
+	
+	}
+
+	void RotatePlayer (){
+	
+		PlayerRB.MoveRotation (Quaternion.LookRotation(VirtualJoystick.Instance.GetValue()));
 	
 	}
 }
